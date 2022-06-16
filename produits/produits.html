@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- ICON -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- STYLE -->
+    <link rel="stylesheet" href="styleProduits.css">
+    <title>Page Produits</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/index.html" id="logo">LOGO</a>
+
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/produits/produits.html">Products</a></li>
+                <li><a href="../contact/contact.html">Contact</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#"><img src="galerieProduits/shopping-cart.png" alt="icon-shopping" width="30"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- =============== PRODUCTS DETAILS=============== -->
+    <section>
+        <div class="products-details">
+            <div class="product-img">
+                <img src="galerieProduits/gallery-1.jpg"
+                alt="redtshirt-img" width="421" height="421">
+
+                <div class="redtshirt-img">
+                    <div class="img-grow">
+                        <img src="galerieProduits/gallery-1.jpg" alt="redtshirt-img" width="100" height="100"
+                            style="margin-right: 5px;">
+                    </div>
+                    <div class="img-grow">
+                        <img src="galerieProduits/gallery-2.jpg " alt="redtshirt-img" width="100" height="100">
+                    </div>
+                    <div class="img-grow">
+                        <img src="galerieProduits/gallery-3.jpg" alt="redtshirt-img" width="100" height="100"
+                            style="margin-left: 5px;">
+                    </div>
+                    <div class="img-grow">
+                        <img src="galerieProduits/gallery-4.jpg" alt="redtshirt-img" width="100" height="100"
+                            style="margin-left: 5px;">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="details">
+                <div class="product-description">
+                    <p>Home/T-Shirt</p>
+                    <h1>Red Printed T-Shirt<br>by HRX </h1>
+                    <p>$50.00</p>
+                    <label for="size">Size</label>
+                    <select name="size" id="size" class="select-size">
+                        <option value="size">Select Size</option>
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                        <option value="XXL">XXL</option>
+                    </select>
+                </div>
+
+                <div class="input-quantity">
+                    <div>
+                        <label for="quantity">Quantity</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="20">
+                    </div>
+                    <div class="btn-add">
+                        <label><a href="#">Add To Cart</a></label>
+                    </div>
+                </div>
+
+                <div class="product-text">
+                    <h2>PRODUCT DETAILS</h2>
+                    <P>Give your summer wardrobe a style upgrade with the HRX<br>Men's Active T-Shirt.Team it with a
+                        pair of
+                        shorts for your<br>morning workout or a denims for an evening out with the guys.</P>
+                </div>
+
+
+            </div>
+        </div>
+    
+
+    <!-- -------------------------related products------------------------ -->
+        <div class="title-2">
+            <h2>Related Products</h2>
+        </div>
+        <div id="link-viewmore">
+            <a href="#">View More</a>
+        </div>
+        <div class="related-products">
+            <div class="zoom">
+                <img src="galerieProduits/product-9.jpg" alt="black watch" width="177" height="240"
+                    style="margin-right: 10px;">
+                <p>Black Sports Watch</p>
+                <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
+                    class='bx bxs-star'></i><i class='bx bx-star'></i>
+                <p>$135.00</p>
+            </div>
+
+            <div class="zoom">
+                <img src="galerieProduits/product-10.jpg" alt="blackshoes" width="177" height="240">
+                <p>Black HRX Shoes</p>
+                <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
+                    class='bx bxs-star'></i><i class='bx bxs-star-half'></i>
+                <p>$50.00</p>
+            </div>
+
+            <div class="zoom">
+                <img src="galerieProduits/product-11.jpg" alt="graysportshoes" width="177" height="240"
+                    style="margin-left: 10px;">
+                <p>Gray Nike Shoes</p>
+                <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
+                    class='bx bxs-star'></i><i class='bx bxs-star-half'></i>
+                <p>$55.00</p>
+            </div>
+
+            <div class="zoom">
+                <img src="galerieProduits/product-12.jpg" alt="back trackpants" width="177" height="240"
+                    style="margin-left: 10px;">
+                <p>HRX Black Trackpants</p>
+                <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
+                    class='bx bxs-star'></i><i class='bx bx-star'></i>
+                <p>$75.00</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===============FOOTER=============== -->
+    <footer>
+        <div class="container">
+            <div class="App">
+                <h4>Download Our App</h4>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="imgapp">
+                    <div>
+                        <a href="#"><img src="galerieProduits/app-store.png" alt="apple store application" width="148" height="44" ></a>
+                    </div>
+
+                    <div>
+                        <a href="#"><img src="galerieProduits/play-store.png" alt="play store application" width="148" height="44" style="margin-left: 3px;"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h4>LOGO</h4>
+                <p>Our Purpose is To Sustainably Make the Pleasure and<br>Benifits of Sports Accessible to the Many.
+                </p>
+            </div>
+
+            <div class="links">
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><a href="#">Coupons</a></li>
+                    <li><a href="#">Blog Post</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Join Affiliate</a></li>
+                </ul>
+            </div>
+
+            <div class="links">
+                <h4>Follow us</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <center>
+            <div class="line">
+
+            </div>
+            <p>Copyright 2020</p>
+        </center>
+
+
+    </footer>
+
+
+
+</body>
+
+</html>

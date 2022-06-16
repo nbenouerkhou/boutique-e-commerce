@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+    background-color: #E9ECEC;
+    height: 460px;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+ul li {
+    list-style: none;
+    padding: 15px;
+    font-size: 18px;
+}
+
+nav ,ul ,li, a, #logo {
+    text-decoration: none;
+    color: #706A6A;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.img-header {
+        margin:0 30px 0 20px;
+    }
+
+   
+
+    
+    
+
+
+.container1 div h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+
+
+}
+
+.container-text p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #706A6A;
+    margin-top: 20px;
+
+
+}
+
+.btn-explore{
+    display: inline-block;
+    background-color: #C4C4C4;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.btn-explore a {
+    color: #fff;
+    font-size: 15px;
+}
+
+.btn-explore:hover {
+    background-color: #000;
+}
+
+
+/* *************************************************************products images************************************* */
+
+
+.products-img  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 40px;
+    
+}
+
+.products-img img{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+} 
+
+
+
+h2 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+
+}
+
+.line {
+    background-color: #C4C4C4;
+    height: 5px;
+    width: 70px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.bxs-star,.bxs-star-half,.bx-star {
+    color: #C4C4C4;
+}
+
+figcaption {
+    font-weight: lighter;
+    color: #706A6A;
+}
+
+/* ****************************************products images prices**************************************************** */
+.products-img-prices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 60px 15px 0 15px;
+
+}
+
+
+
+figure img{
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+/* ***************************************************************************smartband**************************************************** */
+
+.smartband {
+    background-color: #E9ECEC;
+    height:auto;
+    margin-top: 90px;
+}
+
+.smartband:hover{
+    background:linear-gradient(to right,black,white ,gray);
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+}
+
+h3 {
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+.container2 div p {
+    font-size: 15px;
+    color: #706A6A;
+    margin-top: 20px;
+
+
+}
+
+.btn-buy{
+    display: inline-block;
+    background-color: #C4C4C4;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.btn-buy a {
+    
+    color: #fff;
+}
+
+.btn-buy:hover{
+    background-color: #000;
+}
+
+
+/* *******************************************************************témoignage********************************* */
+
+.container3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+
+
+
+
+}
+
+.temoignages {
+    box-shadow: 0 0 10px rgba(211, 210, 210, 0.6)
+}
+
+
+blockquote {
+    text-align: center;
+    margin: 0 20px 20px 20px;
+    
+}
+
+
+blockquote .bxs-quote-left{
+    margin-top: 15px;
+    color: #C4C4C4;
+}
+
+cite {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: bold;
+    color:#706A6A;
+    margin-top: 15px;
+   
+}
+
+cite img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 70px;
+}
+
+span{
+    margin-top: 5%;
+}
+
+.bxs-quote-left {
+    font-size: 30px;
+    margin: 0 20px 20px 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+
+}
+
+.filter {
+    filter: grayscale(160%)
+}
+
+/* ***************************************************************************footer************************************************* */
+footer {
+    background-color: black;
+    margin-top: 40px;
+}
+
+h4 {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container4,
+p,
+a{
+    color: #706A6A;
+    font-size: 12px;
+}
+
+.App p{
+    margin-top: 15px;
+
+}
+
+.imgapp{
+    display: flex;
+    margin-top: 20px;
+}
+
+.links{
+    line-height: 0.1em;
+    margin-top: 30px;
+   
+    
+}
+
+   
+.line2 {
+    background-color: #C4C4C4;
+    height: 1px;
+    width: 80%;
+    margin-top: 10px;
+
+}
+
+center p {
+    margin-top: 10px;
+}
+
+
+
+/* *****************************************RESPONSIVE********************************** */
+
+@media screen and (max-width:1050px){
+    .container1 div h1 {
+        font-size: 40px;
+    }
+
+    .container-text {
+        display: block;
+       margin-left: 30px;
+    
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 775px){
+
+    .container1 div h1 {
+        font-size: 30px;
+    }
+
+    .container-text p{
+        font-size: 12px;
+    }
+
+    .products-img-prices {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: 60px 15px 0 15px;
+    
+    }
+
+    .btn-explore a{
+        font-size: 12px;
+        
+    }
+
+
+    .container2 .smart-band p{
+        font-size: 12px;
+    }
+    
+    .smart-band{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+}
+    
+
+    
